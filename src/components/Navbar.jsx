@@ -1,7 +1,7 @@
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase";
 import { LogOut } from "./LogOut";
-import { SignIn } from "./Signin";
+import { SignIn } from "./SignIn";
 
 const style = {
   nav: "bg-gray-800 h-20 flex justify-between items-center p-4",
